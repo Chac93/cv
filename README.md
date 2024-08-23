@@ -49,4 +49,3 @@ Ce projet est sous licence MIT. Veuillez vous référer au fichier `LICENSE` pou
 
 ---
 
-Tu peux adapter ce texte pour ton dépôt GitHub en remplaçant les informations spécifiques par les tiennes.
