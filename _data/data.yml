@@ -52,10 +52,10 @@ sidebar:
           link:
 
         - item: Cinéma, photographie
-          link:
+            link:
 
         - item: Veille technologique:TryHackme, Rootme, RSS
-
+            link: https://tryhackme.com/p/Chac93
 career-profile:
     title: Qui suis je ?  
     summary: |
