@@ -1,6 +1,3 @@
-Voici un exemple de fichier `LICENSE` sans markdown :
-
----
 
 **Licence MIT**
 
@@ -11,7 +8,3 @@ Par la présente, la permission est accordée, gratuitement, à toute personne o
 Le texte ci-dessus de la notice de copyright et cette permission doivent être inclus dans toutes les copies ou portions substantielles du Logiciel.
 
 LE LOGICIEL EST FOURNI "TEL QUEL", SANS GARANTIE D'AUCUNE SORTE, EXPLICITE OU IMPLICITE, Y COMPRIS MAIS SANS S'Y LIMITER AUX GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER ET DE NON-VIOLATION. EN AUCUN CAS LES AUTEURS OU LES DÉTENTEURS DU COPYRIGHT NE POURRONT ÊTRE TENUS RESPONSABLES DE TOUTE RÉCLAMATION, DE DOMMAGES OU D'AUTRES RESPONSABILITÉS, QUE CE SOIT DANS UNE ACTION CONTRACTUELLE, DÉLICTUELLE OU AUTRE, DÉCOULANT DE, HORS OU EN LIEN AVEC LE LOGICIEL OU L'UTILISATION OU D'AUTRES RELATIONS AVEC LE LOGICIEL.
-
----
-
-Remplace `2024` par l'année en cours et `Chac93` par ton nom ou ton identifiant GitHub. Ce texte constitue la licence MIT standard, te permettant de partager ton code tout en limitant ta responsabilité.
