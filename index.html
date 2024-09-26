@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
-<head>
-    <style>
-        @media print {
-            a {
-                display: none; /* Masquer tous les liens */
-            }
+<style>
+    @media print {
+        a {
+            visibility: hidden; /* Masquer le texte des liens */
         }
-    </style>
-</head>
+    }
+</style>
 
 {% include career-profile.html %}
 
