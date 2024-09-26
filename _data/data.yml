@@ -155,7 +155,7 @@ certifications:
           organization: Udemy
           credentialid: 
           credentialurl: https://lnkd.in/eqeCCsBM
-          credentialname: Europe Innovation
+          credentialname: '<a href="https://lnkd.in/eqeCCsBM" style="color: blue; text-decoration: underline;">Europe Innovation</a>'
           details: |
             Renforçant ainsi vos compétences en programmation avec ces deux langages populaires. Ce certificat atteste de votre maîtrise des concepts et des pratiques essentielles en C# et Python, vous préparant à des applications pratiques et professionnelles.
         - name: Network Addressing and Basic Troubleshooting
