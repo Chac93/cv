@@ -127,19 +127,19 @@ experiences:
           - Administratif : Déclaration des différents documents comptables
           - Accueil clientèle et fidélisation BtoB
           - Relation fournisseur BtoC
-      - role: Responsable SAV
+      - role: Manager Service Technique
         time: 2009 - 2011
-        company: SARL Vraimentdiscount
+        company: SARL Vraimentdiscount.com
         details: |
-          - Gestion du parc informatique
+          - Gestion du parc informatique : Supervision et optimisation des ressources informatiques
           - Maintenance et rapport au fournisseur des produits défectueux
 
-      - role: Commercial 
+      - role: Manager Commercial 
         time: 2006 - 2008
         company: PROGRES CERAMIQUE , Livry Gargan
         details: |
           - Conseil et Accueil clientèle BtoB
-          - Préparation et manutention de commande
+          - Gestion des Livraisons
 
       - role: Agent de piste  
         time: 2004 - 2006
