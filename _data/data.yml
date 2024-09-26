@@ -42,10 +42,10 @@ sidebar:
       level: Natif
 
     - idiom: Langages de Programmation
-      level: Python, Bash
+      level: Python Bash
 
     - idiom: Langage de Balisage
-      level: HTML, Markdown
+      level: HTML Markdown
 
     - idiom: Gestion de bases de données
       level: SQL
