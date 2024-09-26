@@ -41,17 +41,6 @@ sidebar:
     - idiom: Français
       level: Natif
 
-    - idiom: Langages de Programmation
-      level: Python Bash
-
-    - idiom: Langage de Balisage
-      level: HTML Markdown
-
-    - idiom: Gestion de bases de données
-      level: SQL
-
-
-
     interests:
       title: Loisirs
       info:
