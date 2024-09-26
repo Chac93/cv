@@ -1,0 +1,259 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Valton Sebastien
+    tagline: Technicien IT / Network / System
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: sebastien.valton@protonmail.com
+    phone: 0622985258
+    ##timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    ##citizenship:
+    website: https://chac93.github.io/cv/ # Include the full website URL, including "http://" or "https://".
+    linkedin: svalton
+    github: Chac93
+    ##telegram: # add your nickname without '@' sign
+    ##tlab:
+    ##bitbucket:
+    ##twitter: '@jekyllrb'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    mastodon:  # Please include your full Mastodon link here.
+    hackerrank: # Please provide your HackerRank username.
+    leetcode: # Please provide your LeetCode username.
+    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Anglais
+          level: Technique et Commercial
+
+        - idiom: Français 
+          level: Native
+
+        - idiom: Langages de Programmation
+          level: Phython & Bash
+          
+        - idiom: Langage de Balisage
+          level: HTML & Markedown
+
+        - idiom: Gestion de bases de données
+          level: Sql
+
+
+    interests:
+      title: Loisirs
+      info:
+        - item: Lecture:Presse et roman
+          link: 
+
+        - item: Sport:jujitsu, judo, natation 
+          link:
+
+        - item: Cinéma, photographie
+          link:
+
+        - item: Veille technologique:TryHackme, Rootme, RSS
+          link: https://tryhackme.com/p/Chac93
+career-profile:
+    title: Qui suis je ?  
+    summary: |
+      Après plus de 15 ans dans le commerce et le management, 
+      où j'ai développé une expertise en gestion d'équipes et en satisfaction client, 
+      j'ai décidé de me consacrer à ma véritable passion : l'informatique. 
+      Aujourd'hui, j'interviens en assistance utilisateur, administration système, 
+      et gestion des réseaux. Cette reconversion me permet de mettre à profit mes compétences 
+      en communication et en technique pour relever de nouveaux défis dans le monde numérique.
+education:
+    title: Fomations 
+    info:
+      - degree: Titre Professionnel Technicien d’Assistance en Informatique
+        university: Greta 77 Lognes
+        time: Juillet 2024
+        details: 
+
+      - degree: Formation “Accès qualification aux métiers de la maintenance informatique et des réseaux” (175heures)
+        university: Greta 77 Lognes
+        time: Fevrier 2024
+        details: 
+
+      - degree: BTS Managements des Unités Commerciales
+        university: Greta Créteil
+        time: 2009
+        details: 
+
+      - degree: BACCALAUREAT STI génie électronique
+        university: Lycée Condorcet Montreuil
+        time: 2004
+        details: 
+       
+experiences:
+    title: Experiences
+    info:
+      - role: Technicien Support IT
+        time: Septembre 2024
+        company: Dcs-group -  INA - Bry sur marnes
+        details: |
+          - Gestion des incidents : Traitement des tickets via ServiceNow
+          - Intervention à distance : Utilisation de RDP pour dépanner et assister les utilisateurs 
+          - Formation et documentation : Rédaction de guides d’utilisation et formations techniques à destination des utilisateurs pour renforcer leur autonomie.
+         
+      - role: Technicien Support IT
+        time: 2024 (6semaines) Stage
+        company: DHL Aviation, CDG aéroport
+        details: |
+          - Assistance Utilisateur Helpdesk
+          - Administration Système
+          - Supervision Network : PRTG , Forescout
+          - Brassage de baie de Switch
+          - Migration de Smartphone : Android
+          - Déploiement d’image Custom
+      - role: Commerçant - Gérant 
+        time: 2012 - 2023
+        company: Smoke vapose
+        details: |
+          - Stock : Contrôle des stocks ,réassort, inventaire
+          - Personnel : Gestion de planning, embauche, encadrement
+          - Administratif : Déclaration des différents documents comptables
+          - Accueil clientèle et fidélisation BtoB
+          - Relation fournisseur BtoC
+      - role: Responsable SAV
+        time: 2009 - 2011
+        company: SARL Vraimentdiscount
+        details: |
+          - Gestion du parc informatique
+          - Maintenance et rapport au fournisseur des produits défectueux
+
+      - role: Commercial 
+        time: 2006 - 2008
+        company: PROGRES CERAMIQUE , Livry Gargan
+        details: |
+          - Conseil et Accueil clientèle BtoB
+          - Préparation et manutention de commande
+
+      - role: Agent de piste  
+        time: 2004 - 2006
+        company: Hreinier , CDG aéroport
+        details: |
+          - Connaissance des Procédures de Sécurité Aéroportuaire
+          - Maîtrise des Opérations de Chargement et Déchargement des bagages
+
+certifications:
+      title: Certifications
+      list:
+        - name: Certification Langage C# & Python 2024
+          organization: Udemy
+          credentialid: 
+          credentialurl: https://www.udemy.com/certificate/UC-568650a0-8409-404a-803a-624116707b7e/
+          credentialname: '<a href="https://www.udemy.com/certificate/UC-568650a0-8409-404a-803a-624116707b7e/" style="color: blue; text-decoration: underline;">Europe Innovation</a>'
+          details: |
+            Renforçant ainsi vos compétences en programmation avec ces deux langages populaires. Ce certificat atteste de votre maîtrise des concepts et des pratiques essentielles en C# et Python, vous préparant à des applications pratiques et professionnelles.
+        - name: Network Addressing and Basic Troubleshooting
+          organization: Cisco
+          credentialid: 
+          credentialurl: www.credly.com/badges/bb945554-00a9-434a-b514-b09f771419a3/linked_in_profile
+          credentialname: '<a href="https://www.credly.com/badges/bb945554-00a9-434a-b514-b09f771419a3/linked_in_profile" style="color: blue; text-decoration: underline;">Networking Academy</a>'
+          details: |
+            La certification "Network Addressing and Basic Troubleshooting" de Cisco enseigne les principes fondamentaux de l'adressage réseau, y compris les concepts d'IPv4 et d'IPv6. Elle couvre également les compétences de base en dépannage, comme l'identification et la résolution des problèmes courants de connectivité réseau. Cette certification est idéale pour ceux qui débutent dans le domaine des réseaux ou cherchent à renforcer leurs compétences de base en infrastructure réseau.
+        - name: Networking Devices and Initial Configuration
+          organization: Cisco
+          credentialid: 
+          credentialurl: www.credly.com/badges/6903f320-3e89-4654-b5f2-a1f545718d09/linked_in_profile
+          credentialname: '<a href="https://www.credly.com/badges/6903f320-3e89-4654-b5f2-a1f545718d09/linked_in_profile" style="color: blue; text-decoration: underline;">Networking Academy</a>'
+          details: |
+            La certification "Networking Devices and Initial Configuration" de Cisco se concentre sur les concepts de base relatifs aux dispositifs réseau, tels que les routeurs et les commutateurs. Elle aborde les étapes essentielles pour configurer ces appareils, incluant la configuration initiale, la gestion des interfaces, et la mise en place des paramètres de base. Cette certification est conçue pour ceux qui souhaitent acquérir des compétences pratiques dans la configuration et la gestion des équipements réseau.
+        - name: Préparer votre carrière dans l'administration système par Microsoft
+          organization: Microsoft
+          credentialid: 
+          credentialurl: www.linkedin.com/learning/certificates/1227e49ff3edd7550f4e41b3097c16814d1d8945ed21cdb77986beb403eb0178
+          credentialname: '<a href="https://www.linkedin.com/learning/certificates/1227e49ff3edd7550f4e41b3097c16814d1d8945ed21cdb77986beb403eb0178" style="color: blue; text-decoration: underline;">Linkedin Learning</a>'
+          details: |
+            Proposée par Microsoft sur LinkedIn est conçue pour vous donner les bases nécessaires pour démarrer dans ce domaine. Elle couvre les fondamentaux de la gestion des serveurs, de la virtualisation, du cloud computing et des réseaux. Vous apprendrez également à sécuriser et à maintenir des infrastructures IT. En plus des compétences techniques, le cours met l'accent sur les meilleures pratiques pour réussir en tant qu'administrateur système.
+        - name: Préparer votre carrière dans la cybersécurité par Microsoft
+          organization: Microsoft
+          credentialid: 
+          credentialurl: www.linkedin.com/learning/certificates/8db5074637d9deadeec16926cdf7193a7f330f14d743ea147d476fdfaa016575
+          credentialname: '<a href="https://www.linkedin.com/learning/certificates/8db5074637d9deadeec16926cdf7193a7f330f14d743ea147d476fdfaa016575" style="color: blue; text-decoration: underline;">Linkedin Learning</a>'
+          details: |
+            Découvrez les compétences nécessaires à une carrière dans la cybersécurité. Acquérez une solide compréhension des termes couramment utilisés dans le domaine de la cybersécurité. Explorez le paysage actuel des menaces et apprendre les concepts fondamentaux de la cybersécurité.r
+        - name: Networking Basics
+          organization: Cisco
+          credentialid: 
+          credentialurl: www.credly.com/badges/cd22ee2f-c023-4b8f-9160-23d88e8f5f5d/linked_in_profile
+          credentialname: '<a href="https://www.credly.com/badges/cd22ee2f-c023-4b8f-9160-23d88e8f5f5d/linked_in_profile" style="color: blue; text-decoration: underline;">Networking Academy</a>'
+          details: |
+            La certification valide les compétences essentielles pour concevoir, configurer et gérer des réseaux informatiques. Elle couvre les principes fondamentaux des réseaux, y compris les types de réseaux (LAN, WAN), les protocoles de communication (TCP/IP), les modèles OSI et TCP/IP, ainsi que les équipements réseau (routeurs, commutateurs). La certification évalue également les compétences en résolution de problèmes et en sécurité réseau. Obtenir cette certification permet de démontrer une compréhension approfondie du fonctionnement des réseaux et de prouver ses capacités professionnelles dans ce domaine.
+        - name: Computer Hardware Basics
+          organization: Cisco
+          credentialid: 
+          credentialurl: www.credly.com/badges/b66ee53e-331c-479b-9206-9314dc8f4cc9/linked_in_profile
+          credentialname: '<a href="https://www.credly.com/badges/b66ee53e-331c-479b-9206-9314dc8f4cc9/linked_in_profile" style="color: blue; text-decoration: underline;">Networking Academy</a>'
+          details: |
+            La certification Cisco en "Computer Hardware Basics" évalue la compréhension des composants matériels essentiels d'un ordinateur. Elle couvre les éléments de base comme le processeur (CPU), la mémoire vive (RAM), le stockage (HDD/SSD), et les périphériques tels que les claviers et les écrans. La certification teste également les compétences en dépannage et en assemblage des composants matériels. Elle est conçue pour établir une base solide en matériel informatique, essentielle pour toute gestion ou support technique des systèmes informatiques.
+    
+
+publications:
+    title: Compétences
+    intro: |
+      Au cours des 25 dernières années, j'ai acquis des compétences autodidactes en administration des systèmes, cybersécurité, administration réseau et support utilisateur, complétées par des formations spécialisées. Cette expérience m'a permis de maîtriser des technologies clés et de résoudre des problèmes .
+    item: |
+      - **Compétences Techniques**
+        - Systèmes d’exploitation:Windows XP à Windows 11, Windows Server 2016 à 2022
+        - Virtualisation: VirtualBox, VMware, Proxmox, Hyper-V , Docker
+        - Administration Serveurs linux:Serveur Apache, DNS, DHCP, GLPI , SSH 
+        - Services Réseaux:Active Directory, DNS, DHCP, MDT, WDS, VPN (Installation et paramétrage de client et serveur)
+        - Création et Déploiement de Master
+        - Routage et Commutation CISCO / VLAN / AP WIFI (configuration et gestion)
+        - Adressage IP et segmentation des réseaux 
+        - Assistance Utilisateur:Dépannage matériel/logiciel, formation utilisateurs
+        - ITIL:Connaissance et application des pratiques  pour la gestion des services IT
+      - **Logiciels et Outils**
+        - Bureautique:Pack Office, LibreOffice, Office365
+        - Gestion à Distance:TeamViewer, TightVNC, AnyDesk
+        - Ticketing:GLPI, ServiceNow
+        - Analyse de réseau : Nmap/Wireshark
+        - Firewalls : Pfsense & Opnsense & Fortigate 
+        - Autres : Adobe Photoshop & Canva
+      - **Relation Client**
+        - Gestion et Fidélisation:BtoB et BtoC, gestion des stocks, gestion comptable et documents administratifs
+      - **Management**
+        - Gestion d’équipe:Supervision, coordination et motivation
+        - Gestion de Projet:Planification, exécution et suivi des projets
+
+
+
+
+skills:
+    title: Skills 
+
+    toolset:
+      - name: Helpdesk
+        level: 75%
+
+      - name: Admin SYS Windows
+        level: 80%
+
+      - name: Admin SYS Linux 
+        level: 75%
+
+      - name: Admin Network et Cisco
+        level: 80%
+
+      - name: Programmation 
+        level: 60%
+
+      - name: Management & Gestion de projet 
+        level: 80%
+  
+
+  
