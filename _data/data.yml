@@ -150,7 +150,6 @@ experiences:
 
 certifications:
       title: Certifications
-      link: "https://chac93.github.io/cv/div/comp.html"
       list:
         - name: '<span style="text-decoration: underline;">Certification Langage C# & Python 2024</span>' 
           organization: Udemy
