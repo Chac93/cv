@@ -5,7 +5,7 @@
 sidebar:
     position: left # position of the sidebar : left or right
     about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: true # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Valton Sebastien
@@ -32,14 +32,15 @@ sidebar:
     leetcode: # Please provide your LeetCode username.
     pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-   languages:
-  title: Languages
-  info:
-    - idiom: Anglais
-      level: Technique et Commercial
+    languages:
+      title: Languages
+      info:
+        - idiom: Anglais
+          level: Technique et Commercial
 
-    - idiom: Français
-      level: Natif
+        - idiom: Français 
+          level: Native
+
 
     interests:
       title: Loisirs
@@ -51,11 +52,10 @@ sidebar:
           link:
 
         - item: Cinéma, photographie
-          link:
+            link:
 
         - item: Veille technologique:TryHackme, Rootme, RSS
-          link: https://tryhackme.com/p/Chac93
-
+            link: https://tryhackme.com/p/Chac93
 career-profile:
     title: Qui suis je ?  
     summary: |
@@ -91,13 +91,6 @@ education:
 experiences:
     title: Experiences
     info:
-    - role: Technicien Support IT
-        time: Septembre 2024
-        company: DHL Aviation, CDG aéroport
-        details: Dcs-group -  INA - Bry sur marnes
-          - Gestion des incidents : Traitement des tickets via ServiceNow
-          - Intervention à distance : Utilisation de RDP pour dépanner et assister les utilisateurs 
-          - Formation et documentation : Rédaction de guides d’utilisation et formations techniques à destination des utilisateurs pour renforcer leur autonomie.
       - role: Technicien Support IT
         time: 2024 (6semaines) Stage
         company: DHL Aviation, CDG aéroport
@@ -192,11 +185,11 @@ publications:
     item: |
       - **Compétences Techniques**
         - Systèmes d’exploitation:Windows XP à Windows 11, Windows Server 2016 à 2022
-        - Virtualisation: VirtualBox, VMware, Proxmox, Hyper-V , Docker
+        - Hyperviseurs:VirtualBox, VMware, Proxmox, Hyper-V
         - Administration Serveurs linux:Serveur Apache, DNS, DHCP, GLPI , SSH 
         - Services Réseaux:Active Directory, DNS, DHCP, MDT, WDS, VPN (Installation et paramétrage de client et serveur)
         - Création et Déploiement de Master
-        - Routage et Commutation CISCO / VLAN / AP WIFI (configuration et gestion) 
+        - Routage et Commutation / VLAN / AP WIFI (configuration et gestion) 
         - Adressage IP et segmentation des réseaux 
         - Assistance Utilisateur:Dépannage matériel/logiciel, formation utilisateurs
         - ITIL:Connaissance et application des pratiques  pour la gestion des services IT
@@ -204,9 +197,8 @@ publications:
         - Bureautique:Pack Office, LibreOffice, Office365
         - Gestion à Distance:TeamViewer, TightVNC, AnyDesk
         - Ticketing:GLPI, ServiceNow
-        - Analyse de réseau : Nmap/Wireshark
-        - Firewalls : Pfsense & Opnsense & Fortigate 
-        - Autres : Adobe Photoshop & Canva
+        - Nmap/Wireshark/Pfsense & Opnsense
+        - Autres:Adobe Photoshop
       - **Relation Client**
         - Gestion et Fidélisation:BtoB et BtoC, gestion des stocks, gestion comptable et documents administratifs
       - **Management**
@@ -237,5 +229,7 @@ skills:
 
       - name: Management & Gestion de projet 
         level: 80%
+  
+
   
 
