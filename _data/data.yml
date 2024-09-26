@@ -32,14 +32,14 @@ sidebar:
     leetcode: # Please provide your LeetCode username.
     pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-    languages:
+   languages:
   title: Languages
   info:
     - idiom: Anglais
       level: Technique et Commercial
 
     - idiom: Français
-      level: Natif  # Vous pouvez ajouter un niveau ici si souhaité
+      level: Natif
 
     - idiom: Langages de Programmation
       level: Python, Bash
@@ -48,7 +48,7 @@ sidebar:
       level: HTML, Markdown
 
     - idiom: Gestion de bases de données
-      level: SQL  # Ajoutez un niveau pour être cohérent
+      level: SQL
 
 
 
@@ -247,6 +247,6 @@ skills:
         level: 60%
 
       - name: Management & Gestion de projet 
-        level: 680%
+        level: 80%
   
 
