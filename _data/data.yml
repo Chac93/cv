@@ -41,6 +41,15 @@ sidebar:
         - idiom: Français 
           level: Native
 
+        - idiom: Langages de Programmation :
+          level: Python, Bash,SQL
+
+        - idiom: Langage de Balisage :
+          level: HTML , Markdown 
+
+        - idiom: Gestion de bases de données SQL
+
+
 
     interests:
       title: Loisirs
@@ -92,6 +101,13 @@ education:
 experiences:
     title: Experiences
     info:
+    - role: Technicien Support IT
+        time: Septembre 2024
+        company: DHL Aviation, CDG aéroport
+        details: Dcs-group -  INA - Bry sur marnes
+          - Gestion des incidents : Traitement des tickets via ServiceNow
+          - Intervention à distance : Utilisation de RDP pour dépanner et assister les utilisateurs 
+          - Formation et documentation : Rédaction de guides d’utilisation et formations techniques à destination des utilisateurs pour renforcer leur autonomie.
       - role: Technicien Support IT
         time: 2024 (6semaines) Stage
         company: DHL Aviation, CDG aéroport
@@ -186,11 +202,11 @@ publications:
     item: |
       - **Compétences Techniques**
         - Systèmes d’exploitation:Windows XP à Windows 11, Windows Server 2016 à 2022
-        - Hyperviseurs:VirtualBox, VMware, Proxmox, Hyper-V
+        - Virtualisation: VirtualBox, VMware, Proxmox, Hyper-V , Docker
         - Administration Serveurs linux:Serveur Apache, DNS, DHCP, GLPI , SSH 
         - Services Réseaux:Active Directory, DNS, DHCP, MDT, WDS, VPN (Installation et paramétrage de client et serveur)
         - Création et Déploiement de Master
-        - Routage et Commutation / VLAN / AP WIFI (configuration et gestion) 
+        - Routage et Commutation CISCO / VLAN / AP WIFI (configuration et gestion) 
         - Adressage IP et segmentation des réseaux 
         - Assistance Utilisateur:Dépannage matériel/logiciel, formation utilisateurs
         - ITIL:Connaissance et application des pratiques  pour la gestion des services IT
@@ -198,8 +214,9 @@ publications:
         - Bureautique:Pack Office, LibreOffice, Office365
         - Gestion à Distance:TeamViewer, TightVNC, AnyDesk
         - Ticketing:GLPI, ServiceNow
-        - Nmap/Wireshark/Pfsense & Opnsense
-        - Autres:Adobe Photoshop
+        - Analyse de réseau : Nmap/Wireshark
+        - Firewalls : Pfsense & Opnsense & Fortigate 
+        - Autres : Adobe Photoshop & Canva
       - **Relation Client**
         - Gestion et Fidélisation:BtoB et BtoC, gestion des stocks, gestion comptable et documents administratifs
       - **Management**
