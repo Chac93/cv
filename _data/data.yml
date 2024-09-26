@@ -200,8 +200,19 @@ certifications:
           credentialname: '<a href="https://www.credly.com/badges/b66ee53e-331c-479b-9206-9314dc8f4cc9/linked_in_profile" style="color: blue; text-decoration: underline;">Networking Academy</a>'
           details: |
             La certification Cisco en "Computer Hardware Basics" évalue la compréhension des composants matériels essentiels d'un ordinateur. Elle couvre les éléments de base comme le processeur (CPU), la mémoire vive (RAM), le stockage (HDD/SSD), et les périphériques tels que les claviers et les écrans. La certification teste également les compétences en dépannage et en assemblage des composants matériels. Elle est conçue pour établir une base solide en matériel informatique, essentielle pour toute gestion ou support technique des systèmes informatiques.
-    
-
+        - name: '<span style="text-decoration: underline;">Certification SecNum</span>' 
+          organization: ANSSI
+          credentialid: 
+          credentialurl: https://chac93.github.io/cv/div/secnum.pdf
+          credentialname: '<a href="https://chac93.github.io/cv/div/secnum.pdf" style="color: blue; text-decoration: underline;">SecNum</a>'
+          details: |
+            Cette certification atteste de votre compétence en matière de sécurité numérique. Au cours de cette formation, vous avez appris à :
+            - Identifier et évaluer les risques liés à la sécurité des systèmes d'information.
+            - Mettre en œuvre des mesures de sécurité efficaces pour protéger les données sensibles.
+            - Connaître les réglementations en matière de protection des données (RGPD, etc.).
+            - Utiliser des outils et des techniques de cybersécurité pour détecter et prévenir les menaces.
+            - Réagir de manière appropriée face à des incidents de sécurité.
+            Ce certificat est une reconnaissance de votre capacité à maintenir un environnement numérique sécurisé et à sensibiliser les autres aux bonnes pratiques en matière de sécurité.
 publications:
     title: Compétences
     intro: |
