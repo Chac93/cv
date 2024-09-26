@@ -151,6 +151,13 @@ experiences:
 certifications:
       title: Certifications
       list:
+        - name: Certification Langage C# & Python 2024
+          organization: Udemy
+          credentialid: 
+          credentialurl: https://lnkd.in/eqeCCsBM
+          credentialname: Europe Innovation
+          details: |
+            Renforçant ainsi vos compétences en programmation avec ces deux langages populaires. Ce certificat atteste de votre maîtrise des concepts et des pratiques essentielles en C# et Python, vous préparant à des applications pratiques et professionnelles.
         - name: Network Addressing and Basic Troubleshooting
           organization: Cisco
           credentialid: 
@@ -202,11 +209,11 @@ publications:
     item: |
       - **Compétences Techniques**
         - Systèmes d’exploitation:Windows XP à Windows 11, Windows Server 2016 à 2022
-        - Hyperviseurs:VirtualBox, VMware, Proxmox, Hyper-V
+        - Virtualisation: VirtualBox, VMware, Proxmox, Hyper-V , Docker
         - Administration Serveurs linux:Serveur Apache, DNS, DHCP, GLPI , SSH 
         - Services Réseaux:Active Directory, DNS, DHCP, MDT, WDS, VPN (Installation et paramétrage de client et serveur)
         - Création et Déploiement de Master
-        - Routage et Commutation / VLAN / AP WIFI (configuration et gestion) 
+        - Routage et Commutation CISCO / VLAN / AP WIFI (configuration et gestion)
         - Adressage IP et segmentation des réseaux 
         - Assistance Utilisateur:Dépannage matériel/logiciel, formation utilisateurs
         - ITIL:Connaissance et application des pratiques  pour la gestion des services IT
@@ -214,8 +221,9 @@ publications:
         - Bureautique:Pack Office, LibreOffice, Office365
         - Gestion à Distance:TeamViewer, TightVNC, AnyDesk
         - Ticketing:GLPI, ServiceNow
-        - Nmap/Wireshark/Pfsense & Opnsense
-        - Autres:Adobe Photoshop
+        - Analyse de réseau : Nmap/Wireshark
+        - Firewalls : Pfsense & Opnsense & Fortigate 
+        - Autres : Adobe Photoshop & Canva
       - **Relation Client**
         - Gestion et Fidélisation:BtoB et BtoC, gestion des stocks, gestion comptable et documents administratifs
       - **Management**
