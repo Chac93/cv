@@ -42,13 +42,13 @@ sidebar:
       level: Natif  # Vous pouvez ajouter un niveau ici si souhaité
 
     - idiom: Langages de Programmation
-      level: "Python, Bash, SQL"
+      level: Python, Bash
 
     - idiom: Langage de Balisage
-      level: "HTML, Markdown"
+      level: HTML, Markdown
 
     - idiom: Gestion de bases de données
-      level: "SQL"  # Ajoutez un niveau pour être cohérent
+      level: SQL  # Ajoutez un niveau pour être cohérent
 
 
 
