@@ -101,6 +101,14 @@ experiences:
     title: Experiences
     info:
       - role: Technicien Support IT
+        time: Septembre 2024
+        company: Dcs-group -  INA - Bry sur marnes
+        details: |
+          - Gestion des incidents : Traitement des tickets via ServiceNow
+          - Intervention à distance : Utilisation de RDP pour dépanner et assister les utilisateurs 
+          - Formation et documentation : Rédaction de guides d’utilisation et formations techniques à destination des utilisateurs pour renforcer leur autonomie.
+         
+      - role: Technicien Support IT
         time: 2024 (6semaines) Stage
         company: DHL Aviation, CDG aéroport
         details: |
