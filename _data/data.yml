@@ -33,20 +33,22 @@ sidebar:
     pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
-      title: Languages
-      info:
-        - idiom: Anglais
-          level: Technique et Commercial
+  title: Languages
+  info:
+    - idiom: Anglais
+      level: Technique et Commercial
 
-        - idiom: Français 
+    - idiom: Français
+      level: Natif  # Vous pouvez ajouter un niveau ici si souhaité
 
-        - idiom: Langages de Programmation
-          level: Python, Bash,SQL
+    - idiom: Langages de Programmation
+      level: "Python, Bash, SQL"
 
-        - idiom: Langage de Balisage
-          level: HTML , Markdown 
+    - idiom: Langage de Balisage
+      level: "HTML, Markdown"
 
-        - idiom: Gestion de bases de données SQL
+    - idiom: Gestion de bases de données
+      level: "SQL"  # Ajoutez un niveau pour être cohérent
 
 
 
