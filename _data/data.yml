@@ -151,49 +151,49 @@ experiences:
 certifications:
       title: Certifications
       list:
-        - name: '<span style="background-color: yellow;">Certification Langage C# & Python 2024</span>' 
+        - name: '<span style="text-decoration: underline;">Certification Langage C# & Python 2024</span>' 
           organization: Udemy
           credentialid: 
           credentialurl: https://www.udemy.com/certificate/UC-568650a0-8409-404a-803a-624116707b7e/
           credentialname: '<a href="https://www.udemy.com/certificate/UC-568650a0-8409-404a-803a-624116707b7e/" style="color: blue; text-decoration: underline;">Europe Innovation</a>'
           details: |
             Renforçant ainsi vos compétences en programmation avec ces deux langages populaires. Ce certificat atteste de votre maîtrise des concepts et des pratiques essentielles en C# et Python, vous préparant à des applications pratiques et professionnelles.
-        - name: '<span style="background-color: yellow;">Network Addressing and Basic Troubleshooting</span>' 
+        - name: '<span style="text-decoration: underline;">Network Addressing and Basic Troubleshooting</span>' 
           organization: Cisco
           credentialid: 
           credentialurl: www.credly.com/badges/bb945554-00a9-434a-b514-b09f771419a3/linked_in_profile
           credentialname: '<a href="https://www.credly.com/badges/bb945554-00a9-434a-b514-b09f771419a3/linked_in_profile" style="color: blue; text-decoration: underline;">Networking Academy</a>'
           details: |
             La certification "Network Addressing and Basic Troubleshooting" de Cisco enseigne les principes fondamentaux de l'adressage réseau, y compris les concepts d'IPv4 et d'IPv6. Elle couvre également les compétences de base en dépannage, comme l'identification et la résolution des problèmes courants de connectivité réseau. Cette certification est idéale pour ceux qui débutent dans le domaine des réseaux ou cherchent à renforcer leurs compétences de base en infrastructure réseau.
-        - name: '<span style="background-color: yellow;">Networking Devices and Initial Configuration</span>' 
+        - name: '<span style="text-decoration: underline;">Networking Devices and Initial Configuration</span>' 
           organization: Cisco
           credentialid: 
           credentialurl: www.credly.com/badges/6903f320-3e89-4654-b5f2-a1f545718d09/linked_in_profile
           credentialname: '<a href="https://www.credly.com/badges/6903f320-3e89-4654-b5f2-a1f545718d09/linked_in_profile" style="color: blue; text-decoration: underline;">Networking Academy</a>'
           details: |
             La certification "Networking Devices and Initial Configuration" de Cisco se concentre sur les concepts de base relatifs aux dispositifs réseau, tels que les routeurs et les commutateurs. Elle aborde les étapes essentielles pour configurer ces appareils, incluant la configuration initiale, la gestion des interfaces, et la mise en place des paramètres de base. Cette certification est conçue pour ceux qui souhaitent acquérir des compétences pratiques dans la configuration et la gestion des équipements réseau.
-        - name: '<span style="background-color: yellow;">Préparer votre carrière dans l administration système par Microsoft</span>' 
+        - name: '<span style="text-decoration: underline;">Préparer votre carrière dans l administration système par Microsoft</span>' 
           organization: Microsoft
           credentialid: 
           credentialurl: www.linkedin.com/learning/certificates/1227e49ff3edd7550f4e41b3097c16814d1d8945ed21cdb77986beb403eb0178
           credentialname: '<a href="https://www.linkedin.com/learning/certificates/1227e49ff3edd7550f4e41b3097c16814d1d8945ed21cdb77986beb403eb0178" style="color: blue; text-decoration: underline;">Linkedin Learning</a>'
           details: |
             Proposée par Microsoft sur LinkedIn est conçue pour vous donner les bases nécessaires pour démarrer dans ce domaine. Elle couvre les fondamentaux de la gestion des serveurs, de la virtualisation, du cloud computing et des réseaux. Vous apprendrez également à sécuriser et à maintenir des infrastructures IT. En plus des compétences techniques, le cours met l'accent sur les meilleures pratiques pour réussir en tant qu'administrateur système.
-        - name: '<span style="background-color: yellow;">Préparer votre carrière dans la cybersécurité par Microsoft</span>' 
+        - name: '<span style="text-decoration: underline;">Préparer votre carrière dans la cybersécurité par Microsoft</span>' 
           organization: Microsoft
           credentialid: 
           credentialurl: www.linkedin.com/learning/certificates/8db5074637d9deadeec16926cdf7193a7f330f14d743ea147d476fdfaa016575
           credentialname: '<a href="https://www.linkedin.com/learning/certificates/8db5074637d9deadeec16926cdf7193a7f330f14d743ea147d476fdfaa016575" style="color: blue; text-decoration: underline;">Linkedin Learning</a>'
           details: |
             Découvrez les compétences nécessaires à une carrière dans la cybersécurité. Acquérez une solide compréhension des termes couramment utilisés dans le domaine de la cybersécurité. Explorez le paysage actuel des menaces et apprendre les concepts fondamentaux de la cybersécurité.r
-        - name: '<span style="background-color: yellow;">Networking Basics</span>' 
+        - name: '<span style="text-decoration: underline;">Networking Basics</span>' 
           organization: Cisco
           credentialid: 
           credentialurl: www.credly.com/badges/cd22ee2f-c023-4b8f-9160-23d88e8f5f5d/linked_in_profile
           credentialname: '<a href="https://www.credly.com/badges/cd22ee2f-c023-4b8f-9160-23d88e8f5f5d/linked_in_profile" style="color: blue; text-decoration: underline;">Networking Academy</a>'
           details: |
             La certification valide les compétences essentielles pour concevoir, configurer et gérer des réseaux informatiques. Elle couvre les principes fondamentaux des réseaux, y compris les types de réseaux (LAN, WAN), les protocoles de communication (TCP/IP), les modèles OSI et TCP/IP, ainsi que les équipements réseau (routeurs, commutateurs). La certification évalue également les compétences en résolution de problèmes et en sécurité réseau. Obtenir cette certification permet de démontrer une compréhension approfondie du fonctionnement des réseaux et de prouver ses capacités professionnelles dans ce domaine.
-        - name: '<span style="background-color: yellow;">Computer Hardware Basics</span>' 
+        - name: '<span style="text-decoration: underline;">Computer Hardware Basics</span>' 
           organization: Cisco
           credentialid: 
           credentialurl: www.credly.com/badges/b66ee53e-331c-479b-9206-9314dc8f4cc9/linked_in_profile
