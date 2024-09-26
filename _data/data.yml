@@ -39,12 +39,11 @@ sidebar:
           level: Technique et Commercial
 
         - idiom: Français 
-          level: Native
 
-        - idiom: Langages de Programmation :
+        - idiom: Langages de Programmation
           level: Python, Bash,SQL
 
-        - idiom: Langage de Balisage :
+        - idiom: Langage de Balisage
           level: HTML , Markdown 
 
         - idiom: Gestion de bases de données SQL
