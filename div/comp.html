@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes Certifications</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -15,22 +16,28 @@
         }
         h1 {
             text-align: center;
-            color: #4B6A78; /* Couleur du titre mise à jour */
+            color: #4B6A78; /* Couleur du titre */
+            margin-bottom: 20px;
+            font-size: 2.5em; /* Taille du titre */
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
             background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 10px; /* Coins arrondis */
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2); /* Ombre plus prononcée */
         }
         .certification {
             margin-bottom: 20px;
             padding: 15px;
-            border-left: 5px solid #4B6A78; /* Couleur de la bordure mise à jour */
+            border-left: 5px solid #4B6A78; /* Couleur de la bordure */
             background: #f9f9f9;
-            border-radius: 4px;
+            border-radius: 5px;
+            transition: transform 0.3s; /* Effet de survol */
+        }
+        .certification:hover {
+            transform: translateY(-5px); /* Effet de levée au survol */
         }
         .certification h2 {
             margin: 0;
@@ -38,7 +45,7 @@
             color: #333;
         }
         .certification a {
-            color: #4B6A78; /* Couleur des liens mise à jour */
+            color: #4B6A78; /* Couleur des liens */
             text-decoration: none;
             font-weight: bold;
         }
@@ -48,11 +55,22 @@
         .organization {
             font-weight: 300;
             color: #666;
+            font-size: 0.9em;
         }
         .details {
             margin-top: 10px;
             font-size: 0.95em;
             line-height: 1.5;
+        }
+        .ctf-links {
+            display: flex;
+            flex-direction: column; /* Changement pour un affichage en colonne */
+            margin-top: 10px;
+        }
+        .ctf-icon {
+            font-size: 1.2em;
+            margin-right: 10px;
+            margin-bottom: 5px; /* Espacement entre les liens */
         }
         @media (max-width: 600px) {
             .certification {
@@ -71,54 +89,60 @@
             <h2>Certification Langage C# & Python 2024</h2>
             <div class="organization">Udemy</div>
             <div><a href="https://www.udemy.com/certificate/UC-568650a0-8409-404a-803a-624116707b7e/">Voir le certificat</a></div>
-            <p class="details">Renforçant ainsi vos compétences en programmation avec ces deux langages populaires. Ce certificat atteste de votre maîtrise des concepts et des pratiques essentielles en C# et Python, vous préparant à des applications pratiques et professionnelles.</p>
+            <p class="details">Renforcez vos compétences en programmation avec C# et Python, attestant de votre maîtrise des concepts et pratiques essentielles.</p>
         </div>
         <div class="certification">
             <h2>Network Addressing and Basic Troubleshooting</h2>
             <div class="organization">Cisco</div>
             <div><a href="https://www.credly.com/badges/bb945554-00a9-434a-b514-b09f771419a3/linked_in_profile">Voir le certificat</a></div>
-            <p class="details">La certification enseigne les principes fondamentaux de l'adressage réseau, y compris les concepts d'IPv4 et d'IPv6, ainsi que les compétences de base en dépannage.</p>
+            <p class="details">Principes fondamentaux de l'adressage réseau, y compris IPv4 et IPv6, ainsi que des compétences de base en dépannage.</p>
         </div>
         <div class="certification">
             <h2>Networking Devices and Initial Configuration</h2>
             <div class="organization">Cisco</div>
             <div><a href="https://www.credly.com/badges/6903f320-3e89-4654-b5f2-a1f545718d09/linked_in_profile">Voir le certificat</a></div>
-            <p class="details">Se concentre sur les concepts de base relatifs aux dispositifs réseau, tels que les routeurs et les commutateurs, y compris la configuration initiale et la gestion des interfaces.</p>
+            <p class="details">Concepts de base relatifs aux dispositifs réseau, y compris la configuration initiale des routeurs et des commutateurs.</p>
         </div>
         <div class="certification">
             <h2>Préparer votre carrière dans l'administration système par Microsoft</h2>
             <div class="organization">Microsoft</div>
             <div><a href="https://www.linkedin.com/learning/certificates/1227e49ff3edd7550f4e41b3097c16814d1d8945ed21cdb77986beb403eb0178">Voir le certificat</a></div>
-            <p class="details">Couvre les fondamentaux de la gestion des serveurs, de la virtualisation, du cloud computing et des réseaux, ainsi que des meilleures pratiques pour réussir en tant qu'administrateur système.</p>
+            <p class="details">Fondamentaux de la gestion des serveurs, de la virtualisation, du cloud computing et des meilleures pratiques.</p>
         </div>
         <div class="certification">
             <h2>Préparer votre carrière dans la cybersécurité par Microsoft</h2>
             <div class="organization">Microsoft</div>
             <div><a href="https://www.linkedin.com/learning/certificates/8db5074637d9deadeec16926cdf7193a7f330f14d743ea147d476fdfaa016575">Voir le certificat</a></div>
-            <p class="details">Découvrez les compétences nécessaires à une carrière dans la cybersécurité, en explorant le paysage actuel des menaces et les concepts fondamentaux.</p>
+            <p class="details">Compétences nécessaires à une carrière dans la cybersécurité, exploration des menaces et concepts fondamentaux.</p>
         </div>
         <div class="certification">
             <h2>Networking Basics</h2>
             <div class="organization">Cisco</div>
             <div><a href="https://www.credly.com/badges/cd22ee2f-c023-4b8f-9160-23d88e8f5f5d/linked_in_profile">Voir le certificat</a></div>
-            <p class="details">Valide les compétences essentielles pour concevoir, configurer et gérer des réseaux informatiques.</p>
+            <p class="details">Compétences essentielles pour concevoir, configurer et gérer des réseaux informatiques.</p>
         </div>
         <div class="certification">
             <h2>Computer Hardware Basics</h2>
             <div class="organization">Cisco</div>
             <div><a href="https://www.credly.com/badges/b66ee53e-331c-479b-9206-9314dc8f4cc9/linked_in_profile">Voir le certificat</a></div>
-            <p class="details">Évalue la compréhension des composants matériels essentiels d'un ordinateur et teste les compétences en dépannage.</p>
+            <p class="details">Compréhension des composants matériels essentiels et compétences en dépannage.</p>
         </div>
 
-        <!-- Nouvelle Rubrique Capture the Flag -->
+        <!-- Section pour les profils TryHackMe et Root-Me -->
         <div class="certification">
-            <h2>Capture the Flag (CTF)</h2>
+            <h2>Profils Capture the Flag (CTF)</h2>
             <div class="organization">TryHackMe & Root-Me</div>
-            <div>
-                <a href="https://tryhackme.com/p/Chac93">Mon profil TryHackMe</a><br>
-                <a href="https://www.root-me.org/Sebv-856453?lang=fr#ec098b4909bf5331a3092553bf2c8b8f">Mon profil Root-Me</a>
+            <div class="ctf-links">
+                <div>
+                    <i class="fas fa-user-secret ctf-icon"></i>
+                    <a href="https://tryhackme.com/p/Chac93">Mon profil TryHackMe</a>
+                </div>
+                <div>
+                    <i class="fas fa-lock ctf-icon"></i>
+                    <a href="https://www.root-me.org/Sebv-856453?lang=fr#ec098b4909bf5331a3092553bf2c8b8f">Mon profil Root-Me</a>
+                </div>
             </div>
-            <p class="details">Ces plateformes offrent des défis de cybersécurité qui aident à renforcer vos compétences en hacking éthique et en sécurité informatique.</p>
+            <p class="details">Ces plateformes offrent des défis de cybersécurité qui renforcent vos compétences en hacking éthique et en sécurité informatique.</p>
         </div>
     </div>
 </body>
