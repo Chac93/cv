@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes Certifications</title>
@@ -16,28 +17,28 @@
         }
         h1 {
             text-align: center;
-            color: #4B6A78; /* Couleur du titre */
+            color: #4B6A78;
             margin-bottom: 20px;
-            font-size: 2.5em; /* Taille du titre */
+            font-size: 2.5em;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
             background: white;
-            border-radius: 10px; /* Coins arrondis */
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2); /* Ombre plus prononcée */
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
         }
         .certification {
             margin-bottom: 20px;
             padding: 15px;
-            border-left: 5px solid #4B6A78; /* Couleur de la bordure */
+            border-left: 5px solid #4B6A78;
             background: #f9f9f9;
             border-radius: 5px;
-            transition: transform 0.3s; /* Effet de survol */
+            transition: transform 0.3s;
         }
         .certification:hover {
-            transform: translateY(-5px); /* Effet de levée au survol */
+            transform: translateY(-5px);
         }
         .certification h2 {
             margin: 0;
@@ -45,7 +46,7 @@
             color: #333;
         }
         .certification a {
-            color: #4B6A78; /* Couleur des liens */
+            color: #4B6A78;
             text-decoration: none;
             font-weight: bold;
         }
@@ -64,13 +65,27 @@
         }
         .ctf-links {
             display: flex;
-            flex-direction: column; /* Changement pour un affichage en colonne */
+            flex-direction: column;
             margin-top: 10px;
         }
         .ctf-icon {
             font-size: 1.2em;
             margin-right: 10px;
-            margin-bottom: 5px; /* Espacement entre les liens */
+            margin-bottom: 5px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px 0; /* Réduction de la taille du footer */
+            text-align: center;
+            background-color: #f4f4f4; /* Fond du footer */
+        }
+        footer h3 {
+            margin: 5px 0; /* Réduction des marges du titre */
+            font-size: 1.2em;
+        }
+        footer p {
+            margin: 3px 0; /* Réduction des marges des paragraphes */
+            font-size: 0.9em; /* Taille de police ajustée */
         }
         @media (max-width: 600px) {
             .certification {
@@ -80,9 +95,27 @@
                 font-size: 1.3em;
             }
         }
+         /* Suppression du soulignement et couleur des liens */
+         footer a {
+            color: inherit; /* hérite de la couleur du texte */
+            text-decoration: none; /* supprime le soulignement */
+        }
+
+        /* Changement de couleur au survol */
+        footer a:hover {
+            color: #4B6A78; /* couleur personnalisée au survol */
+        }
     </style>
 </head>
 <body>
+    <header style="text-align: center; margin-bottom: 20px;">
+        <a href="https://chac93.github.io/cv/" style="font-size: 24px; color: #4B6A78; text-decoration: none; margin-right: 15px;">
+            <i class="fas fa-home"></i>
+        </a>
+        <a href="#footer" style="font-size: 24px; color: #4B6A78; text-decoration: none;">
+            <i class="fas fa-phone"></i>
+        </a>
+    </header>
     <div class="container">
         <h1>Mes Certifications</h1>
         <div class="certification">
@@ -144,17 +177,63 @@
         </div>
 
         <!-- Section pour les profils TryHackMe et Root-Me -->
-        <div class="certification">
-            <h2>Profils Capture the Flag (CTF)</h2>
-            <div class="organization">TryHackMe & Root-Me</div>
-            <div class="ctf-links">
-                <div>
-                    <i class="fas fa-user-secret ctf-icon"></i>
-                    <a href="https://tryhackme.com/p/Chac93">Mon profil TryHackMe</a>
-                </div>
-                <div>
-                    <i class="fas fa-lock ctf-icon"></i>
-                    <a href="https://www.root-me.org/Sebv-856453?lang=fr#ec098b4909bf5331a3092553bf2c8b8f">Mon profil Root-Me</a>
-                </div>
-            </div>
-            <p class="details">Ces plateformes offrent des défis de cybersécurité qui renforcent vos compétences
+<div class="certification">
+    <h2>Profils Capture the Flag (CTF)</h2>
+    <div class="organization">TryHackMe & Root-Me</div>
+    <div class="ctf-links">
+        <div>
+            <i class="fas fa-user-secret ctf-icon"></i>
+            <a href="https://tryhackme.com/p/Chac93">Mon profil TryHackMe</a>
+        </div>
+        <div>
+            <i class="fas fa-lock ctf-icon"></i>
+            <a href="https://www.root-me.org/Sebv-856453?lang=fr#ec=10756601">Mon profil Root-Me</a>
+            <p>Découvrez mes compétences en cybersécurité à travers mes profils sur TryHackMe et Root-Me. Ces plateformes de Capture the Flag (CTF) offrent des défis interactifs qui me permettent de perfectionner mes capacités d'analyse et de résolution de problèmes dans le domaine de la sécurité informatique.</p>
+            
+        </div>
+    </div>
+</div>
+
+
+
+    <footer id="footer" style="text-align: center; border: none; border-radius: 10px; padding: 20px;">
+        <style>
+            /* Suppression du soulignement et couleur des liens */
+            footer a {
+                color: inherit; /* hérite de la couleur du texte */
+                text-decoration: none; /* supprime le soulignement */
+            }
+    
+            /* Changement de couleur au survol */
+            footer a:hover {
+                color: #4B6A78; /* couleur personnalisée au survol */
+            }
+    
+            /* Style pour aligner les icônes sur la même ligne */
+            .social-links {
+                display: flex; /* Utilise Flexbox pour l'alignement */
+                justify-content: center; /* Centre les éléments horizontalement */
+                gap: 15px; /* Espace entre les icônes */
+            }
+        </style>
+        <h3>Contact</h3>
+        <p>
+            <a href="mailto:sebastien.valton@protonmail.com"><i class="fas fa-envelope"></i> sebastien.valton@protonmail.com</a>
+        </p>
+        <p>
+            <a href="tel:0622985258"><i class="fas fa-phone"></i> 0622985258</a>
+        </p>
+        <div class="social-links">
+            <p>
+                <a href="https://www.linkedin.com/in/svalton"><i class="fab fa-linkedin"></i> svalton</a>
+            </p>
+            <p>
+                <a href="https://github.com/Chac93"><i class="fab fa-github"></i> Chac93</a>
+            </p>
+        </div>
+        <p>© 2024 Valton Sebastien. Tous droits réservés.</p>
+    </footer>
+    
+    
+</body>
+</html>
