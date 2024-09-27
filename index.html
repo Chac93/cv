@@ -3,23 +3,35 @@ layout: default
 ---
 <!-- Lien vers les certifications -->
 <div style="text-align: center; margin-bottom: 20px;">
-  <a href="https://chac93.github.io/cv/div/comp.html" style="text-decoration: none; color: inherit;">
+  <a href="https://chac93.github.io/cv/div/comp.html" class="hover-effect">
     <i class="fas fa-graduation-cap" style="margin-right: 5px;"></i>
     Mes Certifications
   </a>
   &nbsp; | &nbsp; <!-- Séparateur -->
-  <!-- Lien vers mes projets -->
-  <a href="#projects" style="text-decoration: none; color: inherit;">
+  <!-- Lien vers mes projets --> 
+  <a href="#projects" class="hover-effect">
     <i class="fas fa-folder" style="margin-right: 5px;"></i>
     Mes Projets
   </a>
   &nbsp; | &nbsp; <!-- Séparateur -->
   <!-- Lien vers imprimer mon CV -->
-  <a href="https://www.canva.com/design/DAGOBpURx9w/C4FGaLJK3bgx2vHyrzzqTw/view?utm_content=DAGOBpURx9w&utm_campaign=designshare&utm_medium=link&utm_source=editor" style="text-decoration: none; color: inherit;">
+  <a href="https://www.canva.com/design/DAGOBpURx9w/C4FGaLJK3bgx2vHyrzzqTw/view?utm_content=DAGOBpURx9w&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="hover-effect">
     <i class="fas fa-print" style="margin-right: 5px;"></i>
     Imprimer mon CV
   </a>
 </div>
+
+<style>
+  .hover-effect {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+
+  .hover-effect:hover {
+    color: #4B6A78; /* La couleur que vous avez choisie */
+  }
+</style>
 
 {% include career-profile.html %}
 
