@@ -151,7 +151,7 @@ experiences:
 certifications:
       title: Certifications
       list:
-      - name: '<span style="text-decoration: underline;"> Hacker X Certified</span>' 
+        - name: '<span style="text-decoration: underline;">Hacker X Certified</span>' 
           organization: Codingx.app
           credentialid: 
           credentialurl: https://us-central1-projectx-rs2020.cloudfunctions.net/certificate/file/image/E8qOV43vgsfBUElo9IQsXj3qeZD3/final%20certificate
