@@ -151,6 +151,13 @@ experiences:
 certifications:
       title: Certifications
       list:
+      - name: '<span style="text-decoration: underline;"> Hacker X Certified</span>' 
+          organization: Codingx.app
+          credentialid: 
+          credentialurl: https://us-central1-projectx-rs2020.cloudfunctions.net/certificate/file/image/E8qOV43vgsfBUElo9IQsXj3qeZD3/final%20certificate
+          credentialname: '<a href="https://us-central1-projectx-rs2020.cloudfunctions.net/certificate/file/image/E8qOV43vgsfBUElo9IQsXj3qeZD3/final%20certificate" style="color: blue; text-decoration: underline;">Europe Innovation</a>'
+          details: |
+            j'ai acquis de nouvelles compétences en cybersécurité, hacking éthique et protection des systèmes d'information. Cette certification renforce mon expertise dans la lutte contre les menaces numériques et la sécurisation des infrastructures critiques.
         - name: '<span style="text-decoration: underline;">Certification Langage C# & Python 2024</span>' 
           organization: Udemy
           credentialid: 
