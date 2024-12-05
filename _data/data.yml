@@ -134,15 +134,27 @@ experiences:
         time: 2009 - 2011
         company: SARL Vraimentdiscount.com
         details: |
-          - Gestion du parc informatique : Supervision et optimisation des ressources informatiques
-          - Maintenance et rapport au fournisseur des produits défectueux
+          - Gestion du parc informatique :
+            - Supervision de l'ensemble des équipements informatiques de l'entreprise, en assurant leur bon fonctionnement et leur optimisation pour répondre aux besoins des équipes.
+            - Mise en place de procédures de maintenance préventive et corrective pour minimiser les pannes et interruptions.
+            - Gestion des licences logicielles, des mises à jour et de la sécurité des systèmes.
+          - Maintenance et rapport au fournisseur des produits défectueux : 
+            - Gestion des incidents techniques, identification des équipements défectueux et mise en place des actions nécessaires pour leur réparation ou remplacement.
+            - Établissement de rapports détaillés pour les fournisseurs afin d’assurer un suivi et obtenir une solution rapide en cas de produits défectueux.
+            - Coordination avec les équipes internes pour la résolution des problèmes techniques et pour garantir la continuité des opérations.
 
       - role: Manager Commercial 
         time: 2006 - 2008
         company: PROGRES CERAMIQUE , Livry Gargan
         details: |
-          - Conseil et Accueil clientèle BtoB
-          - Gestion des Livraisons
+          - Conseil et accueil client BtoB :
+            - Accompagnement personnalisé des professionnels (architectes, entrepreneurs, décorateurs) dans le choix de solutions adaptées à leurs projets en céramique et revêtements.
+            - Gestion des relations commerciales en mettant l’accent sur la satisfaction client et la fidélisation.
+            - Organisation de présentations produits et élaboration de devis sur mesure pour répondre aux besoins spécifiques des clients BtoB.
+          - Gestion des Livraisons :
+            - Planification et suivi logistique des commandes pour garantir des livraisons dans les délais impartis.
+            - Coordination avec les fournisseurs et les transporteurs pour optimiser les coûts et les délais.
+            - Réponse proactive aux imprévus (retards, erreurs de livraison) pour maintenir la satisfaction client.
 
       - role: Agent de piste  
         time: 2004 - 2006
