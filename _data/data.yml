@@ -151,7 +151,7 @@ experiences:
 certifications:
       title: Certifications
       list:
-       - name: '<span style="text-decoration: underline;">Mastering Windows Security</span>' 
+        - name: '<span style="text-decoration: underline;">Mastering Windows Security</span>' 
           organization: Udemy
           credentialid: 
           credentialurl: http://ude.my/UC-2a33e3c2-b60e-4a8e-bf9b-16f1886c43d3
