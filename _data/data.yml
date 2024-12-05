@@ -151,6 +151,13 @@ experiences:
 certifications:
       title: Certifications
       list:
+       - name: '<span style="text-decoration: underline;">Mastering Windows Security</span>' 
+          organization: Udemy
+          credentialid: 
+          credentialurl: http://ude.my/UC-2a33e3c2-b60e-4a8e-bf9b-16f1886c43d3
+          credentialname: '<a href="http://ude.my/UC-2a33e3c2-b60e-4a8e-bf9b-16f1886c43d3" style="color: blue; text-decoration: underline;">Voir le certificat</a>'
+          details: |
+            Ce certificat atteste de ma maîtrise des bases essentielles pour sécuriser un environnement Windows de manière robuste et efficace. À travers ce cours, j’ai acquis des compétences clés telles que la gestion des applications et des utilisateurs, la sécurisation des réseaux, et l’importance des mises à jour et des sauvegardes. Destiné aux professionnels IT, propriétaires d’entreprises ou passionnés de technologie, il offre des solutions concrètes pour renforcer la sécurité informatique.
         - name: '<span style="text-decoration: underline;">Ethical Hacking & Cybersecurity</span>' 
           organization: Hacker X Certified
           credentialid: 
