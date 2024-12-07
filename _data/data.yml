@@ -68,12 +68,7 @@ sidebar:
 career-profile:
     title: Qui suis je ?  
     summary: |
-      Après plus de 15 ans dans le commerce et le management, 
-      où j'ai développé une expertise en gestion d'équipes et en satisfaction client, 
-      j'ai décidé de me consacrer à ma véritable passion : l'informatique. 
-      Aujourd'hui, j'interviens en assistance utilisateur, administration système, 
-      et gestion des réseaux. Cette reconversion me permet de mettre à profit mes compétences 
-      en communication et en technique pour relever de nouveaux défis dans le monde numérique.
+      Après plus de 15 ans dans le commerce et le management, j'ai choisi de me reconvertir dans l'informatique, ma véritable passion. Aujourd'hui, j'interviens en assistance utilisateur, administration système et gestion des réseaux, en alliant compétences techniques et communication pour relever de nouveaux défis.
 education:
     title: Fomations 
     info:
@@ -245,8 +240,7 @@ certifications:
 publications:
     title: Compétences
     intro: |
-        Au fil de mon parcours professionnel, j'ai acquis une expertise diversifiée et approfondie dans plusieurs domaines techniques et relationnels. J'ai développé des compétences solides en administration des systèmes et des réseaux, ainsi qu'en gestion de projet et en relation client. Mon engagement envers l'apprentissage continu me permet de rester à jour sur les technologies émergentes et d'améliorer constamment mes compétences.
-
+     Au cours de mon parcours, j'ai acquis une expertise dans plusieurs domaines techniques et relationnels. J'ai développé des compétences en administration des systèmes et des réseaux, ainsi qu'en gestion de projet et en relation client. Mon engagement pour l'apprentissage continu me permet de rester à jour sur les nouvelles technologies et d'améliorer constamment mes compétences.
     item: |
       - **Compétences Techniques**
         - Systèmes d’exploitation:Windows XP à Windows 11, Windows Server 2016 à 2022
