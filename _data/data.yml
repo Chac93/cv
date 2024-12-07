@@ -15,9 +15,9 @@ sidebar:
     # Sidebar links
     email: sebastien.valton@protonmail.com
     phone: 0622985258
-    ##timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    ##citizenship:
-    website: https://chac93.github.io/cv/ # Include the full website URL, including "http://" or "https://".
+    timezone: Europe/Paris
+    citizenship: France
+    website: https://cv.sebv.fr # Include the full website URL, including "http://" or "https://".
     linkedin: svalton
     github: Chac93
     ##telegram: # add your nickname without '@' sign
@@ -75,22 +75,22 @@ education:
       - degree: Titre Professionnel Technicien d’Assistance en Informatique
         university: Greta 77 Lognes
         time: Juillet 2024
-        details: 
+        details: Formation approfondie en support informatique, gestion des incidents utilisateurs, administration des systèmes et des réseaux, dépannage matériel et logiciel, ainsi que la gestion de la sécurité informatique.
 
       - degree: Formation “Accès qualification aux métiers de la maintenance informatique et des réseaux” (175heures)
         university: Greta 77 Lognes
         time: Fevrier 2024
-        details: 
+        details: Formation orientée vers les métiers de la maintenance informatique, incluant la gestion des réseaux, l’installation et la configuration des équipements informatiques, ainsi que la maintenance préventive et corrective.
 
       - degree: BTS Managements des Unités Commerciales
         university: Greta Créteil
         time: 2009
-        details: 
+        details: Formation en gestion d’équipes commerciales, management des ressources humaines, gestion de la relation client, et mise en place de stratégies commerciales pour optimiser la performance des unités commerciales.
 
       - degree: BACCALAUREAT STI génie électronique
         university: Lycée Condorcet Montreuil
         time: 2004
-        details: 
+        details: Formation en électronique, incluant la conception, l’analyse et la maintenance des systèmes électroniques, ainsi que l’étude des composants électroniques et des circuits électriques.
        
 experiences:
     title: Experiences
@@ -110,21 +110,21 @@ experiences:
         time: 2024 (6semaines) Stage
         company: DHL Aviation, CDG aéroport
         details: |
-          - Assistance Utilisateur Helpdesk
-          - Administration Système
-          - Supervision Network : PRTG , Forescout
-          - Brassage de baie de Switch
-          - Migration de Smartphone : Android
-          - Déploiement d’image Custom
+          - Assistance Utilisateur Helpdesk : Support technique aux utilisateurs, résolution de problèmes matériels et logiciels via téléphone et tickets.
+          - Administration Système : Gestion des utilisateurs et des mises à jour de sécurité des systèmes internes.
+          - Supervision du Réseau : Utilisation de PRTG et Forescout pour surveiller le réseau, détecter les problèmes et alerter en cas de dysfonctionnement.
+          - Brassage de Baie de Switch : Organisation et câblage des équipements dans les baies de réseau pour assurer un fonctionnement optimal.
+          - Migration de Smartphones Android : Préparation et installation des applications sur les appareils Android utilisés en entreprise.
+          - Déploiement d'Images Custom : Installation d'images système personnalisées sur les ordinateurs.
       - role: Commerçant - Gérant 
         time: 2012 - 2023
         company: Smoke vapose
         details: |
-          - Stock : Contrôle des stocks ,réassort, inventaire
-          - Personnel : Gestion de planning, embauche, encadrement
-          - Administratif : Déclaration des différents documents comptables
-          - Accueil clientèle et fidélisation BtoB
-          - Relation fournisseur BtoC
+          - Gestion des Stocks : Contrôle des stocks, réassortiment et réalisation des inventaires réguliers.
+          - Gestion du Personnel : Élaboration des plannings, recrutement et encadrement des employés.
+          - Gestion Administrative : Déclaration des documents comptables et suivi des obligations fiscales et administratives.
+          - Accueil Clientèle et Fidélisation BtoB : Accueil des clients, gestion des relations commerciales et développement de la fidélisation pour les clients professionnels.
+          - Relations Fournisseurs BtoC : Gestion des relations avec les fournisseurs et suivi des approvisionnements pour les ventes aux particuliers.
       - role: Manager Service Technique
         time: 2009 - 2011
         company: SARL Vraimentdiscount.com
