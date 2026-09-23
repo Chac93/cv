@@ -235,3 +235,16 @@ html[data-theme="dark"] .brand > span { color: var(--ink); }
   .brand svg { width: 23px; height: 23px; }
   .brand > span { font-size: 18px; }
 }
+
+
+/* FortiGate lab cards: simple diagrams keep the portfolio readable at a glance. */
+.forti-visual{display:flex;flex-direction:column;justify-content:space-between;padding:13px 14px;background:#202b45;color:#dce2f5;font-family:var(--mono)}
+.forti-meta,.forti-note{display:flex;justify-content:space-between;gap:10px;font-size:8px;letter-spacing:.55px;color:#b8c2df}
+.forti-flow{display:flex;align-items:center;justify-content:center;gap:9px;min-height:68px}
+.forti-node{display:flex;flex-direction:column;gap:4px;padding:9px 10px;border:1px solid #465273;border-radius:7px;background:#293552;text-align:center;white-space:nowrap}
+.forti-node strong{font-size:10px;color:#eef0f8}
+.forti-node small{font-size:7px;color:#aeb8d2}
+.forti-firewall,.forti-master{border-color:#8e83df;background:#34345e}
+.forti-arrow{font-size:18px;color:#b6a9ff}
+.forti-note{padding-top:8px;border-top:1px solid #3a4667;font-size:7px}
+@media(max-width:620px){.forti-visual{padding:11px}.forti-flow{gap:5px}.forti-node{padding:8px 6px}.forti-meta,.forti-note{font-size:7px}.forti-note{gap:6px}}
