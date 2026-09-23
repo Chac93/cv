@@ -193,3 +193,7 @@ html[data-theme="dark"] .profile-facts svg{stroke:#b6a9ff}
 .ctf-links a{border-radius:8px}
 .project-card .tags span{border-radius:5px}
 
+
+/* Rounded skill cards to match the project gallery. */
+.skill-card{border-radius:14px}
+
