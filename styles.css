@@ -197,3 +197,27 @@ html[data-theme="dark"] .profile-facts svg{stroke:#b6a9ff}
 /* Rounded skill cards to match the project gallery. */
 .skill-card{border-radius:14px}
 
+
+/* More breathing room for the four expertise cards on desktop. */
+@media (min-width: 901px) {
+  .skill-grid { padding-left: 6%; }
+}
+
+/* Compact infrastructure mark replaces the text-only monogram. */
+.brand {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0;
+}
+.brand svg { display: block; width: 40px; height: 40px; overflow: visible; }
+.brand rect { fill: #293552; stroke: #465170; stroke-width: 1; }
+.brand path, .brand circle { fill: none; stroke: #c3baff; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.brand circle { fill: #c3baff; }
+footer p { font-size: 12px; }
+@media (max-width: 620px) {
+  .brand, .brand svg { width: 36px; height: 36px; }
+  footer p { font-size: 11px; }
+}
