@@ -221,3 +221,17 @@ footer p { font-size: 12px; }
   .brand, .brand svg { width: 36px; height: 36px; }
   footer p { font-size: 11px; }
 }
+
+/* Computer icon and SV. wordmark. */
+.brand { width: auto; gap: 8px; font-size: 20px; letter-spacing: -1.3px; }
+.brand svg { width: 25px; height: 25px; overflow: visible; }
+.brand rect { fill: none; stroke: #b6a9ff; stroke-width: 1.7; }
+.brand path { fill: none; stroke: #b6a9ff; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.brand > span { color: var(--ink); font-size: 20px; font-weight: 800; letter-spacing: -1.3px; }
+.brand > span > span { color: #6d5ce7; }
+html[data-theme="dark"] .brand > span { color: var(--ink); }
+@media (max-width: 620px) {
+  .brand { width: auto; height: 36px; }
+  .brand svg { width: 23px; height: 23px; }
+  .brand > span { font-size: 18px; }
+}
