@@ -185,3 +185,11 @@ html[data-theme="dark"] .contact-links svg{stroke:#b6a9ff}
 html[data-theme="dark"] .profile-facts strong{color:var(--ink)}
 html[data-theme="dark"] .profile-facts svg{stroke:#b6a9ff}
 @media(max-width:620px){.profile-facts{gap:12px}.profile-facts>div{grid-template-columns:23px minmax(0,1fr);gap:4px 7px}.profile-facts strong{font-size:11px}.profile-facts span{font-size:10px}.profile-facts svg{width:19px;height:19px}}
+
+/* Softer corners for the project gallery, matching the rounded hero panel. */
+.project-card{border-radius:16px}
+.project-visual{border-radius:11px}
+.ctf-strip{border-radius:16px}
+.ctf-links a{border-radius:8px}
+.project-card .tags span{border-radius:5px}
+
