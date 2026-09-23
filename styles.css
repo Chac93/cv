@@ -170,3 +170,6 @@ html[data-theme="dark"] .contact-links a{background:#202741;border-color:#454c66
 html[data-theme="dark"] .contact-links a:hover{background:#292f4b;border-color:#8c82db}
 html[data-theme="dark"] .contact-links svg{stroke:#b6a9ff}
 @media(max-width:620px){.contact-links{gap:9px}.contact-links a{min-width:calc(50% - 5px);min-height:58px;padding:10px 12px;font-size:12px}}
+
+/* Align the contact index with the other section labels on wide screens. */
+@media(min-width:901px){.contact .section-label{margin-left:3.8%}}
