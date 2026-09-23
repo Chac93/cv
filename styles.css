@@ -248,3 +248,7 @@ html[data-theme="dark"] .brand > span { color: var(--ink); }
 .forti-arrow{font-size:18px;color:#b6a9ff}
 .forti-note{padding-top:8px;border-top:1px solid #3a4667;font-size:7px}
 @media(max-width:620px){.forti-visual{padding:11px}.forti-flow{gap:5px}.forti-node{padding:8px 6px}.forti-meta,.forti-note{font-size:7px}.forti-note{gap:6px}}
+
+
+/* Keep the network expertise icon visually consistent with the other skill symbols. */
+.skill-icon svg{display:block;width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
