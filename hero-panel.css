@@ -1,0 +1,166 @@
+.hero-art {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 420px;
+  min-height: 420px;
+  padding: clamp(22px, 3vw, 38px);
+  overflow: hidden;
+  border: 1px solid #dce0eb;
+  background: #eaedf5;
+  color: #1d2538;
+  box-shadow: none;
+}
+
+.infra-header,
+.infra-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  color: #68728a;
+  font: 10px/1.4 var(--mono);
+  letter-spacing: .8px;
+}
+
+.infra-list {
+  display: grid;
+  margin: 20px 0;
+  border-top: 1px solid #d5dae8;
+}
+
+.infra-row {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 16px;
+  min-height: 82px;
+  padding: 13px 0;
+  border-bottom: 1px solid #d5dae8;
+}
+
+.infra-symbol {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid #dce0eb;
+  border-radius: 8px;
+  background: #f8f9fc;
+}
+
+.infra-symbol svg {
+  display: block;
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: #6d5ce7;
+  stroke-width: 1.65;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.infra-copy {
+  display: grid;
+  gap: 5px;
+}
+
+.infra-copy strong {
+  color: #1d2538;
+  font: 700 16px/1.3 var(--sans);
+}
+
+.infra-copy small {
+  color: #70788b;
+  font: 12px/1.4 var(--sans);
+}
+
+.infra-index {
+  color: #818aa0;
+  font: 11px var(--mono);
+}
+
+.infra-footer {
+  padding-top: 5px;
+  font-size: 9px;
+}
+
+html[data-theme="dark"] .hero-art {
+  border-color: #30374d;
+  background: #1a2032;
+  color: #eef0f8;
+}
+
+html[data-theme="dark"] .infra-header,
+html[data-theme="dark"] .infra-footer,
+html[data-theme="dark"] .infra-index {
+  color: #a1a8bc;
+}
+
+html[data-theme="dark"] .infra-list,
+html[data-theme="dark"] .infra-row {
+  border-color: #30374d;
+}
+
+html[data-theme="dark"] .infra-symbol {
+  border-color: #30374d;
+  background: #202741;
+}
+
+html[data-theme="dark"] .infra-symbol svg {
+  stroke: #b6a9ff;
+}
+
+html[data-theme="dark"] .infra-copy strong {
+  color: #eef0f8;
+}
+
+html[data-theme="dark"] .infra-copy small {
+  color: #a1a8bc;
+}
+
+@media (min-width: 1200px) {
+  .hero-art {
+    height: clamp(420px, 45vh, 500px);
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-art {
+    height: 350px;
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero-art {
+    height: 300px;
+    min-height: 300px;
+    padding: 20px;
+  }
+
+  .infra-row {
+    min-height: 62px;
+    grid-template-columns: 40px minmax(0, 1fr) auto;
+    gap: 12px;
+    padding: 8px 0;
+  }
+
+  .infra-symbol {
+    width: 36px;
+    height: 36px;
+  }
+
+  .infra-copy strong {
+    font-size: 14px;
+  }
+
+  .infra-copy small {
+    font-size: 11px;
+  }
+
+  .infra-footer {
+    font-size: 8px;
+  }
+}
