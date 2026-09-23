@@ -171,5 +171,17 @@ html[data-theme="dark"] .contact-links a:hover{background:#292f4b;border-color:#
 html[data-theme="dark"] .contact-links svg{stroke:#b6a9ff}
 @media(max-width:620px){.contact-links{gap:9px}.contact-links a{min-width:calc(50% - 5px);min-height:58px;padding:10px 12px;font-size:12px}}
 
-/* Align the contact index with the other section labels on wide screens. */
-@media(min-width:901px){.contact .section-label{margin-left:3.8%}}
+/* Align section 06 with section 05 inside its centered max-width container. */
+@media(min-width:1500px){.contact .section-label{margin-left:calc(39.5vw - 592.5px)}}
+
+/* Two concise profile highlights with matching line icons. */
+.profile-facts{display:flex;gap:18px}
+.profile-facts>div{display:grid;grid-template-columns:28px minmax(0,1fr);align-items:center;gap:4px 10px;flex:1;min-width:0}
+.profile-facts>div>svg,.profile-facts .fact-icons{grid-column:1;grid-row:1 / span 2}
+.profile-facts .fact-icons{display:flex;flex-direction:column;gap:8px}
+.profile-facts svg{width:21px;height:21px;fill:none;stroke:#6d5ce7;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.profile-facts strong{grid-column:2;color:var(--ink);font-family:var(--sans);font-size:13px;font-weight:700}
+.profile-facts span{grid-column:2;max-width:none;font-size:11px;line-height:1.45}
+html[data-theme="dark"] .profile-facts strong{color:var(--ink)}
+html[data-theme="dark"] .profile-facts svg{stroke:#b6a9ff}
+@media(max-width:620px){.profile-facts{gap:12px}.profile-facts>div{grid-template-columns:23px minmax(0,1fr);gap:4px 7px}.profile-facts strong{font-size:11px}.profile-facts span{font-size:10px}.profile-facts svg{width:19px;height:19px}}
