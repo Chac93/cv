@@ -96,30 +96,61 @@ html[data-theme="dark"] .ctf-links a:hover{background:#26372e}
 @media(max-width:900px){.project-grid{padding-left:6%}.ctf-strip{margin-left:6%}}
 @media(max-width:620px){.project-grid{padding:0;grid-template-columns:1fr;gap:10px}.project-card{padding:15px}.project-card p{min-height:0}.project-visual{height:145px}.ctf-strip{margin:16px 0 0;padding:15px;align-items:flex-start;flex-direction:column}.ctf-links{width:100%}.project-top{font-size:9px}}
 
-/* Blue-violet palette replaces the original green accents. */
-:root{--paper:#f5f6fb;--ink:#1d2538;--muted:#70788b;--line:#dce0eb;--lime:#7262e8;--deep:#293552}
-.brand span,.contact h2 span,.hero h1 span,.profile-facts strong,.section-label span,.hero-links a span,.contact-mail span,.cert-mark,.project-link:hover,.ctf-kicker{color:#6d5ce7}
+/* Blue-violet palette & Unified Design System Tokens (UI/UX Pro Max) */
+:root{
+  --paper:#f5f6fb;
+  --ink:#1d2538;
+  --muted:#4d5870;
+  --line:#dce0eb;
+  --lime:#6d5ce7;
+  --accent:#6d5ce7;
+  --accent-light:#b6a9ff;
+  --deep:#293552;
+  --card-bg:#f0f1f7;
+  --radius-sm:8px;
+  --radius-md:14px;
+  --radius-lg:20px;
+  --shadow-subtle:0 10px 30px rgba(29,37,56,0.06);
+  --shadow-hover:0 14px 32px rgba(37,48,79,0.12);
+  --serif:Georgia,'Times New Roman',serif;
+  --sans:'Manrope',Arial,sans-serif;
+  --mono:'DM Mono',monospace;
+}
+.brand span,.contact h2 span,.hero h1 span,.profile-facts strong,.section-label span,.hero-links a span,.contact-mail span,.cert-mark,.project-link:hover,.ctf-kicker{color:var(--accent)}
 .topbar{border-bottom-color:rgba(29,37,56,.12)}
 .experience,.hero-art,.contact{background:#eaedf5}
 .expertise{background:#202a43}
-.project-card{background:#f0f1f7;border-color:#dce0eb}
-.project-card:hover{box-shadow:0 14px 30px rgba(37,48,79,.09)}
+.project-card{background:var(--card-bg);border-color:var(--line);border-radius:var(--radius-md)}
+.project-card:hover{box-shadow:var(--shadow-hover)}
 .project-top{color:#69738a}.project-top span:last-child{color:#8b8faa}
-.project-card p{color:#697184}
+.project-card p{color:var(--muted)}
 .project-link{border-color:#bfc4d4}.project-link:hover{border-color:#9386ed}
-.job-date{color:#657087}.current-tag{background:#e8e5fb;color:#5e50ca}
-.tags span{background:#e8eaf3;color:#4f5870}
+.job-date{color:var(--muted)}.current-tag{background:#e8e5fb;color:#5e50ca}
+.tags span{background:#e8eaf3;color:#4f5870;border-radius:6px}
 .hero-links a:hover,.contact-links a:hover{background:rgba(109,92,231,.08);border-color:#9b91e8}
-.hero-links a span{color:#6d5ce7}
-.contact-links a{border-color:#c8cede}
-.contact-content>p,.contact-links{color:#657087}
+.hero-links a span{color:var(--accent)}
+.contact-links a{border-color:#c8cede;border-radius:var(--radius-sm)}
+.contact-content>p,.contact-links{color:var(--muted)}
 .contact-mail{border-color:#bcc3d4}
 .contact-glow{border-color:rgba(82,75,165,.1);box-shadow:0 0 0 65px rgba(82,75,165,.025),0 0 0 130px rgba(82,75,165,.025)}
-.graph-label{color:#d1d6e6}.graph-label span{color:#b6a9ff}
-.graph-legend span:first-child{color:#b6a9ff}.graph-legend span:nth-child(2){color:#73c5db}
-.graph-area{fill:rgba(182,169,255,.11)}.graph-line-a{stroke:#b6a9ff}.graph-line-b{stroke:#73c5db}
-.ctf-strip{background:#eaedf5;border-color:#dce0eb}.ctf-strip p{color:#697184}.ctf-links a{border-color:#c8cede}.ctf-links a:hover{background:#e1e4f2}
-html[data-theme="dark"]{--paper:#111522;--ink:#eef0f8;--muted:#a1a8bc;--line:#30374d;--deep:#b6a9ff;--lime:#b6a9ff}
+.graph-label{color:#d1d6e6}.graph-label span{color:var(--accent-light)}
+.graph-legend span:first-child{color:var(--accent-light)}.graph-legend span:nth-child(2){color:#73c5db}
+.graph-area{fill:rgba(182,169,255,.11)}.graph-line-a{stroke:var(--accent-light)}.graph-line-b{stroke:#73c5db}
+.ctf-strip{background:#eaedf5;border-color:var(--line);border-radius:var(--radius-md)}.ctf-strip p{color:var(--muted)}.ctf-links a{border-color:#c8cede;border-radius:var(--radius-sm)}.ctf-links a:hover{background:#e1e4f2}
+html[data-theme="dark"]{
+  --paper:#111522;
+  --ink:#eef0f8;
+  --muted:#a1a8bc;
+  --line:#30374d;
+  --deep:#b6a9ff;
+  --lime:#b6a9ff;
+  --accent:#b6a9ff;
+  --accent-light:#c3baff;
+  --card-bg:#1a2032;
+  --shadow-subtle:0 12px 32px rgba(0,0,0,0.25);
+  --shadow-hover:0 16px 36px rgba(0,0,0,0.35);
+  color-scheme:dark;
+}
 html[data-theme="dark"] body{background:var(--paper);color:var(--ink)}
 html[data-theme="dark"] .topbar{border-color:#30374d}
 html[data-theme="dark"] .experience,html[data-theme="dark"] .hero-art,html[data-theme="dark"] .contact{background:#1a2032}
