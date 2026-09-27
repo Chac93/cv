@@ -1,0 +1,97 @@
+/* Keep the desktop opening section balanced and full-height. */
+@media (min-width: 1200px) {
+  .hero {
+    height: clamp(780px, 100vh, 1000px);
+    min-height: 780px;
+    grid-template-columns: 1fr .95fr;
+    gap: 4%;
+  }
+
+  .hero h1 {
+    font-size: clamp(80px, 8.2vw, 132px);
+  }
+
+  .hero-art {
+    height: clamp(380px, 45vh, 500px);
+  }
+}
+
+/* Section 06 starts at the same centered gutter as the capped sections. */
+@media (min-width: 1500px) {
+  .contact .section-label {
+    margin-left: calc(50vw - 750px);
+  }
+}
+
+/* Compact, aligned profile highlights with visible line icons. */
+.profile-facts[aria-label="Support et mobilité"] {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  align-items: stretch;
+}
+
+.profile-facts[aria-label="Support et mobilité"] > div {
+  display: grid !important;
+  grid-template-columns: 28px minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  align-content: center;
+  align-items: center;
+  gap: 4px 10px;
+  min-width: 0;
+  min-height: 60px;
+}
+
+.profile-facts > div > svg,
+.profile-facts .fact-icons {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.profile-facts .fact-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-facts svg {
+  display: block;
+  width: 22px !important;
+  height: 22px !important;
+  flex: 0 0 22px;
+  fill: none;
+  stroke: #6d5ce7;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.profile-facts strong {
+  grid-column: 2;
+  grid-row: 1;
+  color: var(--ink);
+  font: 700 13px/1.35 var(--sans);
+}
+
+.profile-facts span {
+  grid-column: 2;
+  grid-row: 2;
+  max-width: none;
+  color: var(--muted);
+  font: 11px/1.45 var(--sans);
+}
+
+html[data-theme="dark"] .profile-facts svg {
+  stroke: #b6a9ff;
+}
+
+@media (max-width: 620px) {
+  .profile-facts[aria-label="Support et mobilité"] {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .profile-facts[aria-label="Support et mobilité"] > div {
+    min-height: 48px;
+  }
+}
