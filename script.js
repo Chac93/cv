@@ -7,20 +7,28 @@ const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 function setTheme(theme) {
   document.documentElement.dataset.theme = theme;
   const isDark = theme === 'dark';
-  themeButton.setAttribute('aria-label', isDark ? 'Activer le thème clair' : 'Activer le thème sombre');
-  themeButton.setAttribute('title', isDark ? 'Activer le thème clair' : 'Activer le thème sombre');
-  themeButton.querySelector('.theme-icon').textContent = isDark ? '☀' : '☾';
-  themeButton.querySelector('.theme-label').textContent = isDark ? 'Jour' : 'Nuit';
-  document.querySelector('meta[name="theme-color"]').content = isDark ? '#111522' : '#f5f6fb';
+  if (themeButton) {
+    themeButton.setAttribute('aria-label', isDark ? 'Activer le thème clair' : 'Activer le thème sombre');
+    themeButton.setAttribute('title', isDark ? 'Activer le thème clair' : 'Activer le thème sombre');
+    const icon = themeButton.querySelector('.theme-icon');
+    if (icon) icon.textContent = isDark ? '☀' : '☾';
+    const label = themeButton.querySelector('.theme-label');
+    if (label) label.textContent = isDark ? 'Jour' : 'Nuit';
+  }
+  const metaTheme = document.querySelector('meta[name="theme-color"]');
+  if (metaTheme) metaTheme.content = isDark ? '#111a17' : '#f5f6fb';
 }
 
-setTheme(savedTheme || (prefersDark ? 'dark' : 'light'));
-
-themeButton.addEventListener('click', () => {
-  const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-  localStorage.setItem('cv-theme', nextTheme);
-  setTheme(nextTheme);
-});
+if (themeButton) {
+  setTheme(savedTheme || (prefersDark ? 'dark' : 'light'));
+  themeButton.addEventListener('click', () => {
+    const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('cv-theme', nextTheme);
+    setTheme(nextTheme);
+  });
+} else {
+  setTheme(savedTheme || (prefersDark ? 'dark' : 'light'));
+}
 
 const animElements = document.querySelectorAll('.job, .reveal-on-scroll');
 
