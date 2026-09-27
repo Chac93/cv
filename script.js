@@ -22,18 +22,20 @@ themeButton.addEventListener('click', () => {
   setTheme(nextTheme);
 });
 
+const animElements = document.querySelectorAll('.job, .reveal-on-scroll');
+
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver((entries, currentObserver) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
-      entry.target.classList.add('visible');
+      entry.target.classList.add('visible', 'is-visible');
       currentObserver.unobserve(entry.target);
     });
   }, { threshold: 0.12 });
 
-  jobs.forEach((job) => observer.observe(job));
+  animElements.forEach((el) => observer.observe(el));
 } else {
-  jobs.forEach((job) => job.classList.add('visible'));
+  animElements.forEach((el) => el.classList.add('visible', 'is-visible'));
 }
 
 // Mobile navigation menu toggle

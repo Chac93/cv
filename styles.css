@@ -10,6 +10,23 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) {
 @media(max-width:900px){.topbar{padding:0 5%}.topbar nav{margin-left:0;gap:19px}.hero{padding-left:6%;padding-right:6%;grid-template-columns:1fr .85fr;gap:3%;min-height:680px}.hero h1{font-size:82px}.hero-art{height:350px}.node{min-width:110px;padding:10px}.node-a{left:5%}.node-b{right:3%}.section{padding:95px 7%}.experience{padding-left:7%;padding-right:7%}.profile-content,.section-heading,.timeline,.skill-grid,.credentials-grid{padding-left:6%;margin-left:0}.section-heading{margin-bottom:50px}.skill-grid{grid-template-columns:repeat(2,1fr)}.credentials-grid{gap:6%}.contact{padding-left:7%;padding-right:7%}.contact-content{margin-left:6%}}
 @media(max-width:620px){html{scroll-padding-top:65px}.topbar{height:64px}.topbar nav{display:none}.top-cta{font-size:10px}.hero{height:auto;min-height:0;padding:119px 7% 76px;display:flex;flex-direction:column;align-items:stretch;gap:36px}.hero h1{font-size:76px;letter-spacing:-6px;margin-top:26px}.hero h1 span{letter-spacing:-5px}.hero-intro{max-width:100%}.hero-art{height:295px}.hero-bottom{bottom:22px}.hero-links{gap:17px;font-size:8px}.profile-content{display:block;padding:40px 0 0}.profile-text{margin-top:28px}.section{padding:78px 7%}.section-heading{display:block;padding:0;margin:34px 0 38px}.section-heading>p{margin-top:17px}.timeline{padding:0;margin:0}.job{grid-template-columns:1fr;gap:9px;padding:24px 0}.job-date{padding:0}.job h3{font-size:15px}.expertise-inner{padding-top:78px;padding-bottom:80px}.skill-grid{padding:0;grid-template-columns:1fr 1fr;gap:8px}.skill-card{padding:16px 12px;min-height:240px}.skill-card h3{font-size:12px}.skill-card p{font-size:8px}.skill-list{font-size:7px}.credentials-grid{display:block;padding:37px 0 0}.cert-column{margin-top:42px}.cert-list>div{grid-template-columns:17px 1fr;gap:7px}.cert-list small{grid-column:2}.contact{min-height:350px;padding:57px 7%}.contact-content{margin:33px 0 0}.contact h2{font-size:63px}.contact-mail{font-size:12px}footer{padding:0 7%;height:69px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+/* Scroll reveal animations for cards and sections */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1), transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
 
 /* Larger, easier-to-read type across the CV. */
 body{font-size:16px}
