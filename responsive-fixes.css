@@ -113,12 +113,23 @@ html[data-theme="dark"] .profile-facts svg {
     left: 0;
     right: 0;
     z-index: 1000 !important;
+    background: transparent !important;
+  }
+
+  .topbar::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
     background: rgba(245, 246, 251, 0.95);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line, #dce0eb);
   }
-  html[data-theme="dark"] .topbar {
-    background: rgba(17, 21, 34, 0.95);
+
+  html[data-theme="dark"] .topbar::before {
+    background: rgba(17, 26, 23, 0.95);
+    border-bottom-color: #33413a;
   }
 
   .top-actions {
@@ -138,12 +149,12 @@ html[data-theme="dark"] .profile-facts svg {
     gap: 8px;
     height: 44px;
     min-width: 44px;
-    padding: 0 12px;
+    padding: 0 14px;
     border: 1px solid var(--line, #dce0eb);
     border-radius: 30px;
     background: transparent;
     color: var(--ink, #1d2538);
-    font: 600 12px var(--sans, sans-serif);
+    font: 600 13px var(--sans, sans-serif);
     cursor: pointer;
     transition: background 0.2s, border-color 0.2s;
     z-index: 1001;
@@ -191,67 +202,77 @@ html[data-theme="dark"] .profile-facts svg {
     transform: translateY(-5px) rotate(-45deg);
   }
 
-  .nav-menu {
-    display: none;
-    position: fixed;
-    top: 64px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: calc(100vh - 64px);
-    background: rgba(245, 246, 251, 0.98);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+  .topbar nav.nav-menu {
+    display: none !important;
+    position: fixed !important;
+    top: 64px !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    height: calc(100vh - 64px) !important;
+    width: 100vw !important;
+    background: var(--paper, #f5f6fb) !important;
     border-top: 1px solid var(--line, #dce0eb);
-    padding: 24px 28px 40px;
-    flex-direction: column;
-    gap: 8px;
-    z-index: 999;
-    overflow-y: auto;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    padding: 24px 28px 40px !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+    margin-left: 0 !important;
+    z-index: 999 !important;
+    overflow-y: auto !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   }
 
-  .nav-menu.is-open {
+  .topbar nav.nav-menu.is-open {
     display: flex !important;
   }
 
-  .nav-menu a {
-    font-size: 16px !important;
+  .topbar nav.nav-menu a {
+    font-size: 17px !important;
     font-weight: 700 !important;
-    color: var(--ink, #1d2538) !important;
-    padding: 14px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    color: var(--ink, #17241f) !important;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line, rgba(0, 0, 0, 0.08));
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+  }
+
+  .topbar nav.nav-menu a:hover,
+  .topbar nav.nav-menu a:focus {
+    color: #6d5ce7 !important;
+    padding-left: 6px;
   }
 
   .mobile-nav-cta {
     display: inline-flex !important;
-    margin-top: 16px;
-    padding: 14px 20px !important;
-    background: var(--accent, #6d5ce7) !important;
+    margin-top: 20px !important;
+    padding: 16px 24px !important;
+    background: var(--deep, #173b32) !important;
     color: #ffffff !important;
-    border-radius: 8px !important;
+    border-radius: 10px !important;
     text-align: center;
     justify-content: center !important;
     border: none !important;
     font-size: 15px !important;
+    font-weight: 700 !important;
   }
   .mobile-nav-cta span {
     margin-left: 8px;
+    color: var(--lime, #d5f36b);
   }
 
-  html[data-theme="dark"] .nav-menu {
-    background: rgba(17, 21, 34, 0.98);
-    border-top-color: #30374d;
+  html[data-theme="dark"] .topbar nav.nav-menu {
+    background: #111a17 !important;
+    border-top-color: #33413a !important;
   }
-  html[data-theme="dark"] .nav-menu a {
-    color: #eef0f8 !important;
-    border-bottom-color: rgba(255, 255, 255, 0.08);
+  html[data-theme="dark"] .topbar nav.nav-menu a {
+    color: #edf0e8 !important;
+    border-bottom-color: #33413a !important;
   }
   html[data-theme="dark"] .mobile-menu-toggle {
-    border-color: #454c66;
-    color: #eef0f8;
+    border-color: #33413a;
+    color: #edf0e8;
   }
 }
+

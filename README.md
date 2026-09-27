@@ -70,6 +70,7 @@ Puis ouvrir `http://localhost:8000` dans votre navigateur.
 
 ## 👤 Contact
 
+- **Site Web / Portfolio :** [cv.sebv.ovh](https://cv.sebv.ovh/)
 - **Email :** [sebastien.valton@protonmail.com](mailto:sebastien.valton@protonmail.com)
 - **LinkedIn :** [linkedin.com/in/svalton](https://www.linkedin.com/in/svalton/)
 - **GitHub :** [github.com/Chac93](https://github.com/Chac93)

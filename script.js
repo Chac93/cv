@@ -67,6 +67,12 @@ if (mobileMenuToggle && mainNav) {
     }
   });
 
+  document.addEventListener('click', (e) => {
+    if (mainNav.classList.contains('is-open') && !mainNav.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
+      toggleMenu(false);
+    }
+  });
+
   window.addEventListener('resize', () => {
     if (window.innerWidth > 900 && mainNav.classList.contains('is-open')) {
       toggleMenu(false);
