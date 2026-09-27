@@ -143,78 +143,98 @@ html[data-theme="dark"] .profile-facts svg {
     display: none !important;
   }
 
-  /* Mica Micro-Animated Burger Toggle Button */
+  /* Modern Clean Burger Toggle Button */
   .mobile-menu-toggle {
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    height: 44px;
+    gap: 0 !important;
+    height: 42px;
     min-width: 44px;
     padding: 0 16px;
-    border: 1px solid var(--line, #dce0eb);
+    border: 1px solid rgba(23, 36, 31, 0.15);
     border-radius: 30px;
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(245, 246, 251, 0.6);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    color: var(--ink, #1d2538);
-    font: 600 13px var(--sans, sans-serif);
+    color: var(--ink, #17241f);
+    font: 600 13px/1 var(--sans, sans-serif);
     cursor: pointer;
-    transition: background 0.25s cubic-bezier(0.16, 1, 0.3, 1),
-                border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),
-                transform 0.15s ease,
-                box-shadow 0.25s ease;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
     z-index: 1001;
   }
 
   .mobile-menu-toggle:hover {
-    background: rgba(109, 92, 231, 0.12);
+    background: rgba(109, 92, 231, 0.1);
     border-color: #6d5ce7;
-    box-shadow: 0 4px 14px rgba(109, 92, 231, 0.18);
+    color: #6d5ce7;
+    box-shadow: 0 4px 14px rgba(109, 92, 231, 0.15);
   }
 
   .mobile-menu-toggle:active {
-    transform: scale(0.95);
+    transform: scale(0.96);
   }
 
   .hamburger-box {
-    width: 16px;
+    width: 18px;
     height: 12px;
     position: relative;
-    display: inline-block;
-  }
-
-  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 16px;
-    height: 2px;
-    background-color: currentColor;
-    position: absolute;
-    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease, background-color 0.25s ease;
-    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0 !important;
+    margin-right: 10px !important;
   }
 
   .hamburger-inner {
-    top: 5px;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 2px;
+    background-color: currentColor;
+    position: absolute;
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.2s ease;
+    border-radius: 2px;
   }
-  .hamburger-inner::before {
+
+  .hamburger-inner::before,
+  .hamburger-inner::after {
     content: "";
+    display: block;
+    width: 18px;
+    height: 2px;
+    background-color: currentColor;
+    position: absolute;
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    border-radius: 2px;
+  }
+
+  .hamburger-inner::before {
     top: -5px;
     left: 0;
   }
   .hamburger-inner::after {
-    content: "";
     top: 5px;
     left: 0;
   }
 
   .mobile-menu-toggle[aria-expanded="true"] .hamburger-inner {
-    background-color: transparent;
+    background-color: transparent !important;
   }
   .mobile-menu-toggle[aria-expanded="true"] .hamburger-inner::before {
     transform: translateY(5px) rotate(45deg);
   }
   .mobile-menu-toggle[aria-expanded="true"] .hamburger-inner::after {
     transform: translateY(-5px) rotate(-45deg);
+  }
+
+  .menu-label {
+    display: inline-block;
+    line-height: 1;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
   }
 
   /* Mica Translucent Drawer & Micro-Animations */
