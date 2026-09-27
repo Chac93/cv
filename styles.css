@@ -308,3 +308,44 @@ html[data-theme="dark"] .brand > span { color: var(--ink); }
 
 /* Keep the network expertise icon visually consistent with the other skill symbols. */
 .skill-icon svg{display:block;width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+
+/* Bento Grid Layout & Diagram Polish (UI/UX Pro Max) */
+@media (min-width: 901px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+  .project-featured {
+    grid-column: 1 / -1;
+    display: grid !important;
+    grid-template-columns: 1.1fr 0.9fr;
+    grid-template-rows: auto 1fr;
+    gap: 16px 24px;
+    padding: 24px;
+  }
+  .project-featured .project-top {
+    grid-column: 1 / -1;
+  }
+  .project-featured .project-visual {
+    grid-column: 1;
+    grid-row: 2;
+    height: 100%;
+    min-height: 220px;
+    margin: 0;
+  }
+  .project-featured .project-details {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.project-visual {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover .project-visual {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
